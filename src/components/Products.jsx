@@ -55,16 +55,16 @@ function Products() {
         
         className='window absolute w-[26rem] h-[319px] left-[30%] overflow-hidden rounded-3xl '>
              <motion.div animate={{y:-pos+`px`}} className=' w-[26rem] h-[320px]  '>
-                <video className=' absolute object-cover rounded-3xl' src={vid1} autoPlay loop></video>
+                <video className=' absolute object-cover rounded-3xl' src={vid1} autoPlay loop muted></video>
              </motion.div>
              <motion.div  animate={{y:-pos+`px`}}  className=' w-[26rem] h-[320px] '>
-             <video className='absolute rounded-3xl' src={vid2} autoPlay loop></video>
+             <video className='absolute rounded-3xl' src={vid2} autoPlay loop muted></video>
              </motion.div>
              <motion.div  animate={{y:-pos+`px`}}  className=' w-[26rem] h-[320px]  '>
-             <video className='absolute rounded-3xl' src={vid3} autoPlay loop></video>
+             <video className='absolute rounded-3xl' src={vid3} autoPlay loop muted></video>
              </motion.div>
              <motion.div  animate={{y:-pos+`px`}}  className=' w-[26rem] h-[320px]  '>
-             <video className='absolute rounded-3xl' src={vid4} autoPlay loop></video>
+             <video className='absolute rounded-3xl' src={vid4} autoPlay loop muted></video>
              </motion.div>
 
         </motion.div>
